@@ -1,0 +1,19 @@
+
+# to initalize the bash terminal for virtual wrapper
+source /usr/local/bin/virtualenvwrapper.sh
+source ~/.bash_profile
+
+
+# to activate the virtualenv
+workon cv
+
+# to deactivate the virtualenv
+deactivate
+
+
+# to run a python script using the frameworkpython
+frameworkpython test.py
+
+
+# reference for opencv installation
+http://www.pyimagesearch.com/2015/06/15/install-opencv-3-0-and-python-2-7-on-osx/
